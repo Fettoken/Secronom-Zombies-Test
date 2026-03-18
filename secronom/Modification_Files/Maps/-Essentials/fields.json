@@ -907,7 +907,7 @@
         "color": "yellow",
         "sym": "+",
         "dangerous": true,
-        "effects": [ { "effect_id": "secro_gravtur_magnet", "min_duration": "3 seconds", "max_duration": "3 seconds" } ]
+        "effects": [ { "effect_id": "secro_gravtur_magnet", "body_part": "torso", "min_duration": "3 seconds", "max_duration": "3 seconds" } ]
       }
     ],
     "priority": 8,
