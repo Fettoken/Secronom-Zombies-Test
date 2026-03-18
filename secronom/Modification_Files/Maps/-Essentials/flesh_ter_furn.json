@@ -13,6 +13,7 @@
       "//": "Flesh terrains' str_min and _max has +5 bash resistance.",
       "str_min": 8,
       "str_max": 16,
+      "str_min_supported": 16,
       "sound": "splash!",
       "sound_fail": "splat!",
       "ter_set": "t_flat_roof",
@@ -147,7 +148,7 @@
     "roof": "t_secro_flat_roof_flesh",
     "connect_groups": "INDOORFLOOR",
     "flags": [ "TRANSPARENT", "INDOORS", "COLLAPSES", "SUPPORTS_ROOF", "FLAT", "ROAD", "NOCOLLIDE", "S_FLESH" ],
-    "bash": { "ter_set": "t_rock_floor", "str_min": 8, "str_max": 16, "bash_below": true }
+    "bash": { "ter_set": "t_rock_floor", "str_min": 8, "str_max": 16, "str_min_supported": 16, "bash_below": true }
   },
   {
     "type": "terrain",
@@ -169,6 +170,7 @@
     "symbol": "<",
     "color": "red",
     "move_cost": 5,
+    "roof": "t_secro_flat_roof_flesh",
     "connect_groups": "INDOORFLOOR",
     "flags": [ "TRANSPARENT", "GOES_UP", "INDOORS", "PLACE_ITEM", "S_FLESH" ]
   },
@@ -1047,7 +1049,7 @@
     "type": "terrain",
     "id": "t_secro_gates_mech_control_flesh",
     "name": "fleshed mechanical winch",
-    "description": "This is a gate control winch. Thich tendrils cover the handle, if removed, it may be usable.",
+    "description": "This is a gate control winch. Thick tendrils cover the handle, if removed, it may be usable.",
     "symbol": "6",
     "color": "red",
     "move_cost": 0,
@@ -1059,9 +1061,9 @@
     "type": "terrain",
     "id": "t_secro_gates_control_concrete_flesh",
     "name": "fleshed mechanical winch",
-    "description": "This is a gate control winch. Thich tendrils cover the handle, if removed, it may be usable.",
+    "description": "This is a gate control winch. Thick tendrils cover the handle, if removed, it may be usable.",
     "symbol": "6",
-    "color": "cyan_red",
+    "color": "light_cyan",
     "move_cost": 0,
     "connect_groups": "INDOORFLOOR",
     "flags": [ "TRANSPARENT", "NOITEM", "INDOORS", "PERMEABLE", "THIN_OBSTACLE", "S_FLESH" ],
@@ -1275,7 +1277,7 @@
     "move_cost": 5,
     "roof": "t_secro_flat_roof_flesh",
     "connect_groups": "INDOORFLOOR",
-    "flags": [ "TRANSPARENT", "INDOORS", "FLAT", "ROAD", "SFLESH" ],
+    "flags": [ "TRANSPARENT", "INDOORS", "FLAT", "ROAD", "S_FLESH" ],
     "bash": { "str_min": 8, "str_max": 16, "sound": "splash!", "sound_fail": "splat!", "ter_set": "t_metal_floor" }
   },
   {
