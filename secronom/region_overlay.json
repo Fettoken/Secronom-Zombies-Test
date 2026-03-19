@@ -1,1 +1,1 @@
-{\n  "type": "region_settings",\n  "id": "default",\n  "copy-from": "default",\n  "map_extras": [\n      //... (existing map_extras configuration)\n  ]\n}
+[{"region_settings":{"type":"region_settings","id":"secronom","copy-from":"default","map_extras":"default"}}]
